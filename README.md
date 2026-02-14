@@ -15,7 +15,7 @@
 https://ahsana-tech.github.io/mental-health-assesment/
 
 ### Project Description
-“MindRevive is a web-based mental health app that assesses users’ moods and behaviors, identifies emotional challenges, and provides personalized solutions. It tracks daily tasks and visualizes progress with an interactive brain emotion meter, motivating users to improve their mental well-being.”
+“Mental health assesment is a web-based mental health app that assesses users’ moods and behaviors, identifies emotional challenges, and provides personalized solutions. It tracks daily tasks and visualizes progress with an interactive brain emotion meter, motivating users to improve their mental well-being.”
 
 ### The Problem statement
 “Many people face stress, anxiety, and mood swings but lack an easy way to assess and improve their mental health. This project provides a web app to track emotions, suggest daily tasks, and visualize progress for better well-being.”
@@ -39,34 +39,8 @@ Web Browser (Chrome, Firefox, Edge) – to test and run the web app
 
 WhatsApp/Notes – for planning and task tracking (optional)
 
-**For Hardware:**
-- Main components: Home Page: Introduction and “Start Assessment” button
+tepad++
 
-Mood & Behaviour Page: Dropdowns for selecting mood and behavior with motivational messages
-
-Assessment Page: True/False questions related to mood and behavior with color feedback
-
-Graph & Solution Page: Brain emotion meter, suggested solutions, and progress visualization
-
-Daily Task Page: Checkboxes for daily tasks, graph update, and celebration on completion
-- Specifications:Web-based application accessible via browser
-
-Tracks user mood, behavior, and progress daily
-
-Interactive brain emotion meter with color-coded progress
-
-Personalized motivational messages based on mood
-
-Daily task tracking with reset functionality for each day
-
-Responsive and user-friendly interface with emojis and animations
-- Tools required: Code Editor: VS Code, Sublime Text, or Notepad++
-
-Web Browser: Chrome, Firefox, Edge, or Safari
-
-Internet Connection: Required for online testing (optional if using locally)
-
----
 
 ## Features
 List the key features of your project:
@@ -94,18 +68,6 @@ List the key features of your project:
 [Run commands - e.g., npm start, python app.py]
 ```
 
-### For Hardware:
-
-#### Components Required
-HTML Pages – Home, Mood & Behavior, Assessment, Graph, Daily Tasks
-
-CSS – Layout, colors, buttons, animations
-
-JavaScript – Interactivity, graph updates, motivational messages, task tracking
-
-Local Storage – Save user progress
-
-Tools – Code editor (VS Code), Web browser (Chrome/Firefox)
 
 #### Circuit Setup
 
