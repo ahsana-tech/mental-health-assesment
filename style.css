@@ -1,0 +1,77 @@
+body{
+font-family:Arial;
+text-align:center;
+background:linear-gradient(to right,#c7f9cc,#f1fdfb);
+}
+
+.container{ margin-top:60px; }
+
+.btn{
+padding:12px 25px;
+font-size:16px;
+margin:12px;
+border:none;
+border-radius:8px;
+background:#16a34a;
+color:white;
+cursor:pointer;
+}
+
+.option{
+padding:8px 18px;
+margin:5px;
+font-size:14px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.dropdown{
+padding:8px;
+width:230px;
+}
+
+.brain{
+width:70%;
+height:35px;
+background:linear-gradient(to right,red,yellow,green);
+margin:20px auto;
+border-radius:20px;
+}
+
+#bar{
+height:100%;
+width:0%;
+background:rgba(0,255,0,0.7);
+border-radius:20px;
+transition:1s;
+}
+
+.scale{
+display:flex;
+justify-content:space-between;
+width:70%;
+margin:auto;
+font-weight:bold;
+}
+
+.hidden{display:none;}
+
+.firework{
+width:120px;
+height:120px;
+margin:auto;
+background:radial-gradient(circle,yellow,orange,red,transparent);
+border-radius:50%;
+animation:pop 1s infinite alternate;
+}
+
+@keyframes pop{
+from{transform:scale(1);}
+to{transform:scale(1.6);}
+}
+
+.motivate{
+font-weight:bold;
+margin:15px;
+color:#065f46;
+}

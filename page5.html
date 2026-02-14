@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Daily Growth Plan</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadGraph()">
+
+<div class="container">
+
+<h2>✅ Complete Daily Healing Tasks</h2>
+
+<label><input type="checkbox" class="task"> 🏃 Exercise</label><br>
+<label><input type="checkbox" class="task"> 🧘 Meditation</label><br>
+<label><input type="checkbox" class="task"> 💬 Social Interaction</label><br>
+<label><input type="checkbox" class="task"> 😴 Proper Sleep</label><br><br>
+
+<div class="brain">
+<div id="bar"></div>
+</div>
+
+<button class="btn" onclick="completeTask()">Mark Today Completed 🎯</button>
+
+<div id="celebrate" class="hidden">
+<h2>🎉 Amazing! Your Mind is Fully Recovered 😊</h2>
+<div class="firework"></div>
+<br>
+<button class="btn" onclick="goHome()">🏠 Return Home</button>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

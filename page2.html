@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Select Mood</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<h2>😊 How Are You Feeling Today?</h2>
+
+<select id="mood" class="dropdown" onchange="showMessage()">
+<option value="sad">😢 Sad</option>
+<option value="anxious">😰 Anxious</option>
+<option value="happy">😄 Happy</option>
+<option value="angry">😡 Angry</option>
+<option value="tired">😴 Tired</option>
+</select>
+
+<h2>🧍 Behaviour</h2>
+<select class="dropdown">
+<option>🙍 Avoiding People</option>
+<option>💭 Overthinking</option>
+<option>🙂 Calm & Stable</option>
+<option>😤 Irritable</option>
+</select>
+
+<p id="motivation" class="motivate"></p>
+
+<button class="btn" onclick="goPage3()">Next ➡</button>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
