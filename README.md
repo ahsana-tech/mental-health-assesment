@@ -2,27 +2,26 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# MENTAL HEALTH ASSESMENT 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: AHSANA M.P - ILAHIA COLLAGE OF ENGINEERING AND TECHNOLOGY
+
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://ahsana-tech.github.io/mental-health-assesment/
 
 ### Project Description
-[2-3 lines about what your project does]
+“MindRevive is a web-based mental health app that assesses users’ moods and behaviors, identifies emotional challenges, and provides personalized solutions. It tracks daily tasks and visualizes progress with an interactive brain emotion meter, motivating users to improve their mental well-being.”
 
 ### The Problem statement
-[What problem are you solving?]
+“Many people face stress, anxiety, and mood swings but lack an easy way to assess and improve their mental health. This project provides a web app to track emotions, suggest daily tasks, and visualize progress for better well-being.”
 
 ### The Solution
-[How are you solving it?]
+“This project provides a web-based platform that assesses users’ moods and behaviors, offers personalized daily tasks, and tracks progress with an interactive brain emotion meter, helping users improve their mental health effectively over time.”
 
 ---
 
@@ -31,25 +30,53 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: HTML,CSS,JAVA SCRIPT
+- Frameworks used:None (pure HTML, CSS, and JavaScript)
+- Libraries used: None
+- Tools used: VS Code (or any code editor) – for writing HTML, CSS, JS
+
+Web Browser (Chrome, Firefox, Edge) – to test and run the web app
+
+WhatsApp/Notes – for planning and task tracking (optional)
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: Home Page: Introduction and “Start Assessment” button
+
+Mood & Behaviour Page: Dropdowns for selecting mood and behavior with motivational messages
+
+Assessment Page: True/False questions related to mood and behavior with color feedback
+
+Graph & Solution Page: Brain emotion meter, suggested solutions, and progress visualization
+
+Daily Task Page: Checkboxes for daily tasks, graph update, and celebration on completion
+- Specifications:Web-based application accessible via browser
+
+Tracks user mood, behavior, and progress daily
+
+Interactive brain emotion meter with color-coded progress
+
+Personalized motivational messages based on mood
+
+Daily task tracking with reset functionality for each day
+
+Responsive and user-friendly interface with emojis and animations
+- Tools required: Code Editor: VS Code, Sublime Text, or Notepad++
+
+Web Browser: Chrome, Firefox, Edge, or Safari
+
+Internet Connection: Required for online testing (optional if using locally)
 
 ---
 
 ## Features
-
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+.Feature1:Interactive Mood & Behavior Assessment – Users select their current mood and behavior to personalize the experience.
+.Feature2:True/False Emotional Self-Check – Questions evaluate mental health with instant green color feedback on selection.
+.Feature3:Brain Emotion Meter & Progress Graph – Visualizes emotional recovery with a color-coded scale and updates as users complete daily tasks.
+.Feature4:Daily Healing Tasks & Motivation – Provides daily actionable tasks, motivational messages based on mood, and celebratory animations when goals are achieved.
+
+
+
 
 ---
 
@@ -70,11 +97,25 @@ List the key features of your project:
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+HTML Pages – Home, Mood & Behavior, Assessment, Graph, Daily Tasks
+
+CSS – Layout, colors, buttons, animations
+
+JavaScript – Interactivity, graph updates, motivational messages, task tracking
+
+Local Storage – Save user progress
+
+Tools – Code editor (VS Code), Web browser (Chrome/Firefox)
 
 #### Circuit Setup
-[Explain how to set up the circuit]
 
+Install a code editor like VS Code.
+
+Create project folders/files: index.html, page2.html, page3.html, page4.html, page5.html, style.css, script.js.
+
+Open index.html in a web browser to run the app.
+
+All interactivity (graph, tasks, motivational messages) works directly in the browser.
 ---
 
 ## Project Documentation
@@ -142,10 +183,10 @@ List the key features of your project:
 ##### Endpoints
 
 **GET /api/endpoint**
-- **Description:** [What it does]
+- **Description:** “MindRevive assesses mood and behavior, tracks emotional progress, provides daily healing tasks, and motivates users with messages and interactive graphs.”
 - **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
+  - mood (string): The current emotional state of the user selected from options like sad, happy, anxious, angry, or tired.
+  - progress (integer): The user’s current emotional recovery level (0–100) used to update the brain emotion meter and track daily task completion.
 - **Response:**
 ```json
 {
@@ -155,7 +196,7 @@ List the key features of your project:
 ```
 
 **POST /api/endpoint**
-- **Description:** [What it does]
+- **Description:** “MindRevive assesses users’ moods and behaviors, provides daily tasks, tracks emotional progress with a graph, and motivates users with messages and celebratory feedback.”
 - **Request Body:**
 ```json
 {
@@ -171,7 +212,7 @@ List the key features of your project:
 }
 ```
 
-[Add more endpoints as needed...]
+“Add more endpoints as needed for future backend integration, e.g., to fetch mood data, update progress, get motivational messages, or daily tasks.”
 
 ---
 
@@ -374,9 +415,13 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:**VS Code (for coding), Web Browser (Chrome/Firefox for testing), ChatGPT (for guidance and code assistance)
 
-**Purpose:** [What you used it for]
+**Purpose:** VS Code: Writing and organizing HTML, CSS, and JavaScript code.
+
+Web Browser: Running and testing the web app.
+
+ChatGPT: Guidance, code examples, and project documentation support.
 - Example: "Generated boilerplate React components"
 - Example: "Debugging assistance for async functions"
 - Example: "Code review and optimization suggestions"
@@ -400,9 +445,7 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- AHSANA M.P:I DID FULL WORK AND MENTORS HELPED ME
 
 ---
 
