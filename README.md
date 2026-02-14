@@ -97,15 +97,7 @@ All interactivity (graph, tasks, motivational messages) works directly in the br
 
 #### Diagrams
 
-**System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
 
 ---
 
